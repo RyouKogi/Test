@@ -1,0 +1,6 @@
+language: ruby
+
+deploy:
+  provider: heroku
+  app: Test # optional if it's the same as your repo name
+  api_key: b95c0ab6-1ea9-445e-819f-a2707a7a3f68
