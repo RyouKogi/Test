@@ -16,7 +16,7 @@ describe "Application" do
 		end
 
 		it "output Hello" do
-			expect(last_response.body).to eq('Hello Press')
+			expect(last_response.body).to eq('Hello Press yahaaaa!!')
 		end
 	end
 end
