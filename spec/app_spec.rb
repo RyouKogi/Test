@@ -8,14 +8,14 @@ describe "Application" do
 		@app ||= Sinatra::Application
 	end
 
-	describe "/へのアクセス" do
+	describe "/ to access" do
 		before { get '/' }
 
-		it "正常なレスポンスを返す" do
+		it "nomal response" do
 			expect(last_response).to be_ok
 		end
 
-		it "Helloと出力する" do
+		it "output Hello" do
 			expect(last_response.body).to eq('Hello Press')
 		end
 	end
